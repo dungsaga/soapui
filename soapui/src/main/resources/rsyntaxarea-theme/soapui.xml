@@ -10,16 +10,16 @@
     <baseFont size="12"/>
 
     <!--  General editor colors. -->
-    <background color="ffffff"/>
-    <caret color="ff0000"/>
-    <selection bg="c8c8ff"/>
-    <currentLineHighlight color="e8f2fe" fade="true"/>
-    <marginLine fg="b0b4b9"/>
-    <markAllHighlight color="6b8189"/>
+    <background color="282a36"/>
+    <caret color="f8f8f2"/>
+    <selection bg="44475a"/>
+    <currentLineHighlight color="44475a" fade="true"/>
+    <marginLine fg="44475a"/>
+    <markAllHighlight color="44475a"/>
     <!-- TODO: Fix me -->
     <markOccurrencesHighlight color="d4d4d4"/>
     <matchedBracket fg="000080" bg="eaeaff" animate="true"/>
-    <hyperlinks fg="0000ff"/>
+    <hyperlinks fg="bd93f9"/>
     <secondaryLanguages>
         <language index="1" bg="fff0cc"/>
         <language index="2" bg="dafeda"/>
@@ -27,20 +27,20 @@
     </secondaryLanguages>
 
     <!-- Gutter styling. -->
-    <gutterBorder color="dddddd"/>
-    <lineNumbers fg="787878"/>
+    <gutterBorder color="44475a"/>
+    <lineNumbers fg="f8f8f2"/>
     <foldIndicator fg="808080" iconBg="ffffff"/>
     <iconRowHeader activeLineRange="3399ff"/>
 
     <!-- Syntax tokens. -->
     <tokenStyles>
-        <style token="IDENTIFIER" fg="000000"/>
+        <style token="IDENTIFIER" fg="f8f8f2"/>
         <style token="RESERVED_WORD" fg="0000ff" bold="true"/>
         <style token="RESERVED_WORD_2" fg="0000ff" bold="true"/>
-        <style token="ANNOTATION" fg="808080"/>
-        <style token="COMMENT_DOCUMENTATION" fg="a40000" italic="true"/>
-        <style token="COMMENT_EOL" fg="008000" italic="true"/>
-        <style token="COMMENT_MULTILINE" fg="008000" italic="true"/>
+        <style token="ANNOTATION" fg="bd93f9"/>
+        <style token="COMMENT_DOCUMENTATION" fg="6272a4" italic="true"/>
+        <style token="COMMENT_EOL" fg="6272a4" italic="true"/>
+        <style token="COMMENT_MULTILINE" fg="6272a4" italic="true"/>
         <style token="COMMENT_KEYWORD" fg="ff9900" bold="true"/>
         <style token="COMMENT_MARKUP" fg="808080"/>
         <style token="DATA_TYPE" fg="008080" bold="true"/>
@@ -53,9 +53,9 @@
         <style token="LITERAL_CHAR" fg="DC009C"/>
         <style token="LITERAL_BACKQUOTE" fg="DC009C"/>
         <style token="MARKUP_TAG_DELIMITER" fg="ff0000"/>
-        <style token="MARKUP_TAG_NAME" fg="0000ff"/>
-        <style token="MARKUP_TAG_ATTRIBUTE" fg="3f7f7f"/>
-        <style token="MARKUP_TAG_ATTRIBUTE_VALUE" fg="DC009C"/>
+        <style token="MARKUP_TAG_NAME" fg="bd93f9"/>
+        <style token="MARKUP_TAG_ATTRIBUTE" fg="bd93f9"/>
+        <style token="MARKUP_TAG_ATTRIBUTE_VALUE" fg="ff79c6"/>
         <style token="MARKUP_PROCESSING_INSTRUCTION" fg="808080"/>
         <style token="MARKUP_CDATA" fg="993333"/>
         <style token="OPERATOR" fg="000000"/>
